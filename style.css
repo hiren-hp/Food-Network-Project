@@ -1,0 +1,78 @@
+.banner
+{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid green; */
+    position: relative;
+}
+.one
+{
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.two
+{
+    top: 10%;
+    left: 10%;
+    z-index: -2;
+    transform: translate(300px,-490px);
+}
+.text
+{
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    top:300px;
+    left:500px;
+    transform: translate(65%, -40%);
+}
+@media (max-width: 768px) {
+    .card {
+        background-color: white;
+        border: 1px solid #bacdd8;
+        padding: 12px;
+        border-radius: 12px;
+        box-shadow:  4px 8px 0 rgba(143, 143, 143, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        max-width: 78%;
+        height: 450pxpx;   
+    }
+    .tab1cards {
+        display: flex;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-between;
+    }
+}
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow:  4px 8px 0 rgba(143, 143, 143, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 78%;
+    height: 450pxpx;   
+}
+.tab1cards {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+}
+.tab2cards {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-between;
+}
+.tab3cards {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-between;
+}
